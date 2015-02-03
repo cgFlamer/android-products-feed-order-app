@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Product Orders</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_description">Product Ordering System</string>
+    <string name="main_refresh">Refresh products</string>
+    <string name="main_add_products">Add products</string>
+    <string name="main_place_order">Place order</string>
+    <string name="main_my_orders">My orders</string>
+    <string name="main_cart_no_products">No products in cart</string>
+    <string name="main_cart_products" formatted="false"><![CDATA[Products: %s | Total: %s]]></string>
+    <string name="title_activity_products">Products</string>
+    <string name="main_product_added">Product added!</string>
+    <string name="products_select_products">Select products</string>
+    <string name="products_text_sku">Sku code</string>
+    <string name="products_text_qty">Quantity</string>
+    <string name="products_add_to_cart">Add to cart</string>
+    <string name="product_add_error">Please select a product</string>
+
+    <string-array name="qty_selector">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>
