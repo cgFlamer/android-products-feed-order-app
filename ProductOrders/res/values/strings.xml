@@ -20,11 +20,16 @@
     <string name="product_add_error">Please select a product</string>
     <string name="refresh_waiting">Getting products. Please wait</string>
     <string name="product_feed_url">http://pastebin.com/raw.php?i=HDZV4EP3</string>
+    <string name="main_order_placed">Congrats! Your order has been placed!</string>
+    <string name="view_orders">View orders graph</string>
+    <string name="orders_graph">Graph</string>
 
     <string-array name="qty_selector">
         <item>1</item>
         <item>2</item>
         <item>3</item>
     </string-array>
+
+    <string name="title_activity_orders_graph">Orders Graph</string>
 
 </resources>

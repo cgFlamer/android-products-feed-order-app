@@ -27,6 +27,7 @@ public class SqlLite extends SQLiteOpenHelper {
 		
 		db.execSQL("CREATE TABLE orders ("
 				+ "id integer primary key,"
+				+ "increment_id text NOT NULL,"
 				+ "date datetime not null"
 				+ ")");
 		

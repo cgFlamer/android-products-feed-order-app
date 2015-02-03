@@ -75,6 +75,7 @@ public class ProductSyncTask extends AsyncTask<Context, String, String> {
 	
 	@Override
 	protected void onPostExecute(String result) {
+		dbWrite.close();
 		dialog.dismiss();
 	}
 

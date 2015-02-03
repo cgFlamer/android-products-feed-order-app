@@ -52,7 +52,7 @@ public class ProductsActivity extends ActionBarActivity {
 	
 	private void setDatabaseProperties() {
 		databaseConnection = new SqlLite(this);
-		db = databaseConnection.getReadableDatabase();		
+		db = databaseConnection.getReadableDatabase();
 	}
 	
 	private void getProductsFromDatabase() {
@@ -68,7 +68,7 @@ public class ProductsActivity extends ActionBarActivity {
 			products.add(product);
 			res.moveToNext();
 		}
-		
+		db.close();
 	}
 	
 	private void populateListView() {
@@ -81,7 +81,6 @@ public class ProductsActivity extends ActionBarActivity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.products, menu);
 		return true;
 	}
 
