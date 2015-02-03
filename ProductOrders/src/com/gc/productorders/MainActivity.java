@@ -69,7 +69,8 @@ public class MainActivity extends ActionBarActivity {
     }
     
     public void onRefreshBtnClick(View v) {
-    	
+    	ProductSyncTask task = new ProductSyncTask(this);
+    	task.execute();
     }
     
     public void onAddProductsBtnClick(View v) {

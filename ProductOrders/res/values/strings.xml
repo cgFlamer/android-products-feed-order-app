@@ -18,6 +18,8 @@
     <string name="products_text_qty">Quantity</string>
     <string name="products_add_to_cart">Add to cart</string>
     <string name="product_add_error">Please select a product</string>
+    <string name="refresh_waiting">Getting products. Please wait</string>
+    <string name="product_feed_url">http://pastebin.com/raw.php?i=HDZV4EP3</string>
 
     <string-array name="qty_selector">
         <item>1</item>
